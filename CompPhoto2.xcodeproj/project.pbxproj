@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8418D28D1CCDD054005BA58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418D28C1CCDD054005BA58F /* AppDelegate.swift */; };
+		8418D28F1CCDD054005BA58F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418D28E1CCDD054005BA58F /* ViewController.swift */; };
+		8418D2921CCDD054005BA58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418D2901CCDD054005BA58F /* Main.storyboard */; };
+		8418D2941CCDD054005BA58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8418D2931CCDD054005BA58F /* Assets.xcassets */; };
+		8418D2971CCDD054005BA58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418D2951CCDD054005BA58F /* LaunchScreen.storyboard */; };
+		8418D2A21CCDD054005BA58F /* CompPhoto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418D2A11CCDD054005BA58F /* CompPhoto2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8418D29E1CCDD054005BA58F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8418D2811CCDD054005BA58F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8418D2881CCDD054005BA58F;
+			remoteInfo = CompPhoto2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8418D2891CCDD054005BA58F /* CompPhoto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompPhoto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418D28C1CCDD054005BA58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8418D28E1CCDD054005BA58F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8418D2911CCDD054005BA58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8418D2931CCDD054005BA58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8418D2961CCDD054005BA58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8418D2981CCDD054005BA58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8418D29D1CCDD054005BA58F /* CompPhoto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompPhoto2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418D2A11CCDD054005BA58F /* CompPhoto2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompPhoto2Tests.swift; sourceTree = "<group>"; };
+		8418D2A31CCDD054005BA58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8418D2861CCDD054005BA58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418D29A1CCDD054005BA58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8418D2801CCDD054005BA58F = {
+			isa = PBXGroup;
+			children = (
+				8418D28B1CCDD054005BA58F /* CompPhoto2 */,
+				8418D2A01CCDD054005BA58F /* CompPhoto2Tests */,
+				8418D28A1CCDD054005BA58F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8418D28A1CCDD054005BA58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8418D2891CCDD054005BA58F /* CompPhoto2.app */,
+				8418D29D1CCDD054005BA58F /* CompPhoto2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8418D28B1CCDD054005BA58F /* CompPhoto2 */ = {
+			isa = PBXGroup;
+			children = (
+				8418D28C1CCDD054005BA58F /* AppDelegate.swift */,
+				8418D28E1CCDD054005BA58F /* ViewController.swift */,
+				8418D2901CCDD054005BA58F /* Main.storyboard */,
+				8418D2931CCDD054005BA58F /* Assets.xcassets */,
+				8418D2951CCDD054005BA58F /* LaunchScreen.storyboard */,
+				8418D2981CCDD054005BA58F /* Info.plist */,
+			);
+			path = CompPhoto2;
+			sourceTree = "<group>";
+		};
+		8418D2A01CCDD054005BA58F /* CompPhoto2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8418D2A11CCDD054005BA58F /* CompPhoto2Tests.swift */,
+				8418D2A31CCDD054005BA58F /* Info.plist */,
+			);
+			path = CompPhoto2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8418D2881CCDD054005BA58F /* CompPhoto2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8418D2A61CCDD054005BA58F /* Build configuration list for PBXNativeTarget "CompPhoto2" */;
+			buildPhases = (
+				8418D2851CCDD054005BA58F /* Sources */,
+				8418D2861CCDD054005BA58F /* Frameworks */,
+				8418D2871CCDD054005BA58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompPhoto2;
+			productName = CompPhoto2;
+			productReference = 8418D2891CCDD054005BA58F /* CompPhoto2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8418D29C1CCDD054005BA58F /* CompPhoto2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8418D2A91CCDD054005BA58F /* Build configuration list for PBXNativeTarget "CompPhoto2Tests" */;
+			buildPhases = (
+				8418D2991CCDD054005BA58F /* Sources */,
+				8418D29A1CCDD054005BA58F /* Frameworks */,
+				8418D29B1CCDD054005BA58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8418D29F1CCDD054005BA58F /* PBXTargetDependency */,
+			);
+			name = CompPhoto2Tests;
+			productName = CompPhoto2Tests;
+			productReference = 8418D29D1CCDD054005BA58F /* CompPhoto2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8418D2811CCDD054005BA58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stewart Boyd";
+				TargetAttributes = {
+					8418D2881CCDD054005BA58F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8418D29C1CCDD054005BA58F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8418D2881CCDD054005BA58F;
+					};
+				};
+			};
+			buildConfigurationList = 8418D2841CCDD054005BA58F /* Build configuration list for PBXProject "CompPhoto2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8418D2801CCDD054005BA58F;
+			productRefGroup = 8418D28A1CCDD054005BA58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8418D2881CCDD054005BA58F /* CompPhoto2 */,
+				8418D29C1CCDD054005BA58F /* CompPhoto2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8418D2871CCDD054005BA58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418D2971CCDD054005BA58F /* LaunchScreen.storyboard in Resources */,
+				8418D2941CCDD054005BA58F /* Assets.xcassets in Resources */,
+				8418D2921CCDD054005BA58F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418D29B1CCDD054005BA58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8418D2851CCDD054005BA58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418D28F1CCDD054005BA58F /* ViewController.swift in Sources */,
+				8418D28D1CCDD054005BA58F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418D2991CCDD054005BA58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418D2A21CCDD054005BA58F /* CompPhoto2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8418D29F1CCDD054005BA58F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8418D2881CCDD054005BA58F /* CompPhoto2 */;
+			targetProxy = 8418D29E1CCDD054005BA58F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8418D2901CCDD054005BA58F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8418D2911CCDD054005BA58F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8418D2951CCDD054005BA58F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8418D2961CCDD054005BA58F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8418D2A41CCDD054005BA58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8418D2A51CCDD054005BA58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8418D2A71CCDD054005BA58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompPhoto2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CompPhoto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8418D2A81CCDD054005BA58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompPhoto2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CompPhoto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8418D2AA1CCDD054005BA58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CompPhoto2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CompPhoto2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompPhoto2.app/CompPhoto2";
+			};
+			name = Debug;
+		};
+		8418D2AB1CCDD054005BA58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CompPhoto2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CompPhoto2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompPhoto2.app/CompPhoto2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8418D2841CCDD054005BA58F /* Build configuration list for PBXProject "CompPhoto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418D2A41CCDD054005BA58F /* Debug */,
+				8418D2A51CCDD054005BA58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8418D2A61CCDD054005BA58F /* Build configuration list for PBXNativeTarget "CompPhoto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418D2A71CCDD054005BA58F /* Debug */,
+				8418D2A81CCDD054005BA58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8418D2A91CCDD054005BA58F /* Build configuration list for PBXNativeTarget "CompPhoto2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418D2AA1CCDD054005BA58F /* Debug */,
+				8418D2AB1CCDD054005BA58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8418D2811CCDD054005BA58F /* Project object */;
+}
